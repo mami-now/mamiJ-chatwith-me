@@ -14,7 +14,7 @@ from chat import chatBot
 chatBot = chatBot()
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://kayarn:DCEs115vKr4hjiTgcNQMtDJPOYFNORNL@dpg-cf2kam14reb5o46213hg-a.oregon-postgres.render.com/chatbot_ksti"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://mami:RsAmLcU0ICsAlHYHgwgbwdx0V6o4y6aY@dpg-cf35uvpgp3jl0q3bocjg-a.oregon-postgres.render.com/chats"
 db = SQLAlchemy(app)
 CORS(app)
 
