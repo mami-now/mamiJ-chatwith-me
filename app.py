@@ -41,9 +41,9 @@ class translator:
         return json.loads(r.text)[0][0][0]
 
 # use this link to get your api key https://detectlanguage.com/
-detectlanguage.configuration.api_key = "13e26484ba8a0a3d865573c4868de0a0"
+detectlanguage.configuration.api_key = "67ddfa41c058f1ab1fe3d16e765a4c7e"
 detectlanguage.configuration.secure = True
-
+# 67ddfa41c058f1ab1fe3d16e765a4c7e
 def process_question(text : str):
   source_lang = simple_detect(text)
   resp = translator.translate(text=text, target_lang='en', source_lang=source_lang)
