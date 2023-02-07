@@ -5,26 +5,39 @@
       "patterns": [
         "Hello",
         "Hi",
+        "Hey",
+        "Hi there",
+        "Good morning",
+        "Good evening",
         "Mukomere",
-        "Good Morning",
-        "Mambo"
+        "Mambo",
+        "Bonjour",
+        "Hola",
+        "Namaste",
+        "Salam"
       ],
       "responses": [
         "Hello am kaberege, How can I help you?",
         "hello! how are you doing?",
         "hi, pleasure to be of service",
         "hi, how can I help you?"
-
       ]
     },
     {
       "tag": "Endings",
       "patterns": [
         "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Cheers",
         "bye",
-        "Murakoze",
         "Goodbye",
-        "Asante"
+        "Farewell",
+        "See you",
+        "See you later",
+        "Murakoze",
+        "Asante",
+        "Toda"
       ],
       "responses": [
         "its a pleasure to be at your service!",
@@ -32,40 +45,95 @@
         "feel free to come again anytime please!",
         "Anytime!",
         "happy to help!"
-
       ]
     },
+
     {
       "tag": "umucyo_exploration",
       "patterns": [
-        "What are the requirements  to access  Umucyo system?",
-        "Where do you get essay writing vs creative writing?",
-        "What is the link to the essay writing vs creative writing?",
-        "How do you get essay writing vs creative writing?",
-        "Who is in Charge of essay writing vs creative writing?"
+        "What are the requirements to access the Umucyo system?",
+        "What do I need to have in order to use the Umucyo system?",
+        "Can you list the prerequisites for accessing the Umucyo system?",
+        "What hardware and software do I need to access Umucyo?",
+        "What is required in terms of technology to use Umucyo?",
+        "Can you tell me the technical requirements for Umucyo access?",
+        "How do I make sure my computer is compatible with Umucyo?"
       ],
       "responses": [
-        "To access the Umucyo system, you need a computer system with a minimum of Pentium IV configuration and above and an internet connection.The operating system supported is Windows.You also need a latest browser such as Chrome, Firefox, Internet explorer …. etc.You may view the pages of the system but the system is not guaranteed to behave normally when you want to login or sign using digital certificates."
+        "To access the Umucyo system, you need a computer system with a minimum of Pentium IV configuration or higher, an internet connection, and a Windows operating system. You also need a modern web browser such as Chrome, Firefox, or Internet Explorer. The system may allow you to view pages, but full functionality including login and digital signature may not work as intended on older or incompatible systems.",
+        "The technical requirements for using Umucyo are a computer with Pentium IV or higher configuration, Windows operating system, an active internet connection, and a web browser such as Chrome, Firefox, or Internet Explorer. Ensure your system meets these specifications to enjoy full functionality of the platform.",
+        "Accessing Umucyo requires a computer with a minimum of Pentium IV configuration and a Windows operating system. You must also have an internet connection and a web browser like Chrome, Firefox, or Internet Explorer. These are the basic requirements for using the system and ensuring full compatibility.",
+        "To ensure seamless use of the Umucyo system, make sure your computer has at least a Pentium IV configuration, is running a Windows operating system, and has an active internet connection. You will also need a modern web browser such as Chrome, Firefox, or Internet Explorer for optimal performance."
       ]
     },
     {
       "tag": "registration",
       "patterns": [
-        "How do I get registered on Umucyo  e-Procurement Portal?",
-        "Where do you get franchising master thesis?",
-        "What is the link to the franchising master thesis?",
-        "How do you get franchising master thesis?",
-        "Who is in Charge of franchising master thesis?"
+      "How do I register on the Umucyo e-Procurement Portal?",
+      "What is the process for registering on Umucyo?",
+      "How can I become a registered user on Umucyo?",
+      "What are the steps to get registered on Umucyo?",
+      "Can you walk me through the registration process for Umucyo?",
+      "What is required for me to register on Umucyo?"
       ],
       "responses": [
-        "Online registration for eProcurement is very simple as a supplier. Go to umucyo.gov.rw Homepage, click on supplier registration link and fill up the registration form online.  You should possess the digital certificate and browse to it when the system asks it.On successful submission and approval by registration administrator of Umucyo the registered certificate can be used to login. The supplier needs to register his/her user and map that user with digital certificate - obtained from GovCA.For support doing this, call our toll free number 3131 where we can assist you"
+      "The process for registering on the Umucyo e-Procurement Portal is simple. First, go to the Umucyo website and click on the supplier registration link. Fill out the online registration form, making sure to possess a digital certificate and browse to it when the system requests it. Upon successful submission and approval by the Umucyo registration administrator, you will be able to log in using your registered certificate. If you need assistance, you can call their toll-free number for support.",
+      "To become a registered user on Umucyo, follow these steps: 1) Go to the Umucyo website, 2) Click on the supplier registration link, 3) Fill out the online registration form, 4) Possess a digital certificate and browse to it when prompted, 5) Wait for approval from the Umucyo registration administrator, 6) Use your registered certificate to log in. If you need help, call the Umucyo toll-free number for support.",
+      "To register on Umucyo, you need to: 1) Visit the Umucyo website, 2) Click on the supplier registration link, 3) Fill out the online registration form, 4) Have a digital certificate ready and browse to it when prompted, 5) Wait for approval from the Umucyo registration administrator, 6) Use your registered certificate to log in. If you need assistance, call the Umucyo toll-free number for support."
       ]
-    },
-    {
+      },
+      {
+            "tag": "registration",
+            "patterns": [
+              "How do I get registered on the Umucyo e-Procurement Portal?",
+              "Can you explain the registration process for Umucyo e-Procurement Portal?",
+              "What are the steps to register on Umucyo e-Procurement Portal?",
+              "How can I become a registered supplier on Umucyo e-Procurement Portal?",
+              "What do I need to do to register on Umucyo e-Procurement Portal?",
+              "How do I start the process of registering as a supplier on Umucyo e-Procurement Portal?"
+            ],
+            "responses": [
+              "To register on the Umucyo e-Procurement Portal, follow these steps: \n1. Go to the Umucyo homepage at umucyo.gov.rw. \n2. Click on the Supplier Registration link. \n3. Fill out the online registration form. \n4. You will need to possess a digital certificate, which you will be asked to browse to during the registration process. \n5. Submit the registration form and wait for approval from the Umucyo registration administrator. \n6. Once approved, you can use your registered certificate to log in. \n7. As a final step, you will need to register your user and map it with the digital certificate obtained from GovCA. \nIf you need assistance, you can call the toll-free number 3131 for support.",
+              "Umucyo e-Procurement Portal is a platform for suppliers to register and participate in procurement processes. To become a registered supplier, you need to follow these steps: \n1. Go to the Umucyo homepage at umucyo.gov.rw. \n2. Click on the Supplier Registration link. \n3. Fill out the online registration form. \n4. You will need to possess a digital certificate, which you will be asked to browse to during the registration process. \n5. Submit the registration form and wait for approval from the Umucyo registration administrator. \n6. Once approved, you can use your registered certificate to log in. \n7. As a final step, you will need to register your user and map it with the digital certificate obtained from GovCA. \nIf you need assistance, you can call the toll-free number 3131 for support."
+            ]
+          },
+      
+      {
+      "intents": [{
+      "tag": "registration",
+      "patterns": [
+      "How do I register on the Umucyo e-Procurement Portal?",
+      "What steps do I need to follow to register on Umucyo e-Procurement Portal?",
+      "Can you explain the process of registering on Umucyo e-Procurement Portal?",
+      "I want to register as a supplier on Umucyo e-Procurement Portal, what should I do?",
+      "What do I need to do to become a registered supplier on Umucyo e-Procurement Portal?",
+      "Tell me about Umucyo e-Procurement Portal",
+      "What is Umucyo e-Procurement Portal?"
+      ],
+      "responses": [
+      "To register as a supplier on Umucyo e-Procurement Portal, you need to follow these steps: \n\n1. Go to the Umucyo e-Procurement Portal website (umucyo.gov.rw). \n2. Click on the Supplier Registration link. \n3. Fill out the registration form online. \n4. You will need a digital certificate, which you can obtain from GovCA. \n5. When asked, browse to your digital certificate. \n6. Submit the form and wait for approval from the registration administrator at Umucyo. \n7. Once approved, you can use your registered certificate to log in. \n\nFor any support, you can call the toll-free number 3131, and the support team will assist you with the registration process."
+      ]
+      },
+    
+      
+      {
+      "tag": "registration",
+      "patterns": [
+      "How do I get registered on Umucyo e-Procurement Portal?",
+      "What's the process of registering on Umucyo e-Procurement Portal?",
+      "Can you guide me through the registration process on Umucyo e-Procurement Portal?",
+      "How can I become a registered supplier on Umucyo e-Procurement Portal?"
+      ],
+      "responses": [
+      "To register on Umucyo e-Procurement Portal as a supplier, follow these steps:1. Go to umucyo.gov.rw homepage. 2. Click on the supplier registration link.3. Fill out the online registration form.4. You will need to have a digital certificate which you will be prompted to browse to when the system asks for it.5. Once you submit the form, it will be reviewed and approved by the Umucyo registration administrator.6. Upon approval, you can use your registered certificate to log in,7. As a supplier, you will need to register your user and map it with the digital certificate obtained from GovCA.If you need assistance, please call our toll-free number 3131 and we will be happy to help."
+      ]
+      },
+      {
       "tag": "documentations",
       "patterns": [
         "How can I obtain a digital certificate?  and what are the requirements??",
-        "Where do you get college writing essay?",
+      
+      "Where do you get college writing essay?",
         "What is the link to the college writing essay?",
         "How do you get college writing essay?",
         "Who is in Charge of college writing essay?"
@@ -114,19 +182,21 @@
       ]
     },
     {
-      "tag": "ACESS_umucyo",
-      "patterns": [
-        "How can I use UMUCYO  system??",
-        "Where do you get Background?",
-        "What is the link to the Background?",
-        "How do you get Background?",
-        "Who is in Charge of Background?"
-      ],
-      "responses": [
-        " you can Visit www.umucyo.gov.rw to Help Menu to view system user guides for more information"
-        
-      ]
-    },
+   
+"tag": "ACESS_umucyo",
+"patterns": [
+"How can I use UMUCYO system?",
+"What are the steps to access UMUCYO e-Procurement system?",
+"How do I start using UMUCYO e-Procurement portal?",
+"What is the process to use UMUCYO e-Procurement system?",
+"Can you explain the procedure to access UMUCYO system?"
+],
+"responses": [
+"You can access UMUCYO e-Procurement system by visiting www.umucyo.gov.rw. To help understand how to use the system, you can also check out the Help Menu for user guides.",
+"To use the UMUCYO e-Procurement portal, simply go to www.umucyo.gov.rw. You can also refer to the Help Menu for more information on how to use the system.",
+"The first step to accessing the UMUCYO e-Procurement system is to visit the website at www.umucyo.gov.rw. You may find more information and support on how to use the system in the Help Menu."
+]
+},
     {
       "tag": "RPPA",
       "patterns": [
@@ -180,29 +250,27 @@
       ]
     },
     {
-      "tag": "roles(rppa)",
+      "tag": "about RPPA",
       "patterns": [
-        "What is the role of the Rwanda Public Procurement Authority (RPPA)?",
-        "Where do you get Consumer Affairs?",
-        "What is the link to the Consumer Affairs?",
-        "How do you get Consumer Affairs?",
-        "Who is in Charge of Consumer Affairs?"
+      "What does RPPA do?",
+      "What is the role of RPPA?",
+      "What is the function of RPPA?",
+      "What is the purpose of RPPA?",
+      "Can you tell me about RPPA?"
       ],
       "responses": [
-        "You can use this link https://www.rppa.gov.rw/about for more information"
+      "The Rwanda Public Procurement Authority (RPPA) is a government agency responsible for managing the procurement process in a fair, transparent, and competitive manner. The RPPA ensures that public procurement is conducted in accordance with the law and regulations, and provides support and guidance to its clients and stakeholders.",
+      "RPPA is responsible for ensuring that public procurement is carried out in a manner that is consistent with the principles of fairness, transparency, and competition, and is committed to promoting good governance and accountability in procurement practices."
       ]
-    },
+      },
     {
-      "tag": "Overview",
+      "tag": "RPPA services",
       "patterns": [
-        "Guide me to Overview?",
-        "Where do you get Overview?",
-        "What is the link to the Overview?",
-        "How do you get Overview?",
-        "Who is in Charge of Overview?"
+        "illustrate more RPPA services ?"
+        
       ],
       "responses": [
-        "You can use this link  href info@rppa.gov.rw ,or Toll free:3131  for more informations"
+        "RPPA stands for Rwanda Public Procurement Authority, which is responsible for providing procurement services to the government of Rwanda. Their services include procurement planning, contract management, supplier management, and performance evaluation, among others.You can use this link  href info@rppa.gov.rw ,or Toll free:3131  for more informations"
       ]
     },
     {
@@ -280,7 +348,7 @@
         "Who is in Charge of Service Charter?"
       ],
       "responses": [
-        "You can use this link You can use this link  https://www.info@rppa.gov.rw ,or Toll free:3131 for more information"
+        "You can use this link You can use this link a<href= https://www.info@rppa.gov.rw / ,or Toll free:3131 for more information"
       ]
     },
     {
@@ -558,4 +626,7 @@
         "The E-Procurement System automates the public procurement process and enables the interactions of… Read more → · Explore More. Latest news ...You've visited this page 2 times. Last visit: 2/6/23https://www.rppa.gov.rw › services"
       ]
     }
-  ]}
+  ]
+}
+  ]
+}
